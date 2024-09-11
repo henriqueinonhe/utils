@@ -1,0 +1,37 @@
+{
+  "name": "@henriqueinonhe/utils",
+  "version": "1.0.0",
+  "description": "General JS/TS utilities",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/henriqueinonhe/utils.git"
+  },
+  "keywords": [
+    "utilities",
+    "utils",
+    "js",
+    "ts"
+  ],
+  "author": "Henrique Inonhe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henriqueinonhe/utils/issues"
+  },
+  "homepage": "https://github.com/henriqueinonhe/utils#readme",
+  "files": [
+    "dist"
+  ],
+  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "prettier": "3.3.3",
+    "vitest": "2.0.5"
+  },
+  "dependencies": {
+    "typescript": "^5.6.2"
+  }
+}
