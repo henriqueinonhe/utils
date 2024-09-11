@@ -4,8 +4,9 @@
   "description": "General JS/TS utilities",
   "main": "dist/index.js",
   "scripts": {
-    "prepublishOnly": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublishOnly": "npm run build && npm run test",
+    "build": "tsc",
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
